@@ -1,7 +1,7 @@
 Class: MUI.Panel {#MUI-Panel}
 =============================
 
-Creates a column. Columns should be created from left to right.
+Create a panel. Panels go one on top of another in columns. Create your columns first and then add your panels. Panels should be created from top to bottom, left to right.
 
 ### Syntax:
 	var myPanel = new MUI.Panel(options);
@@ -231,3 +231,10 @@ Expands a collapsed panel, and collapses an expanded panel.
 
 	var myPanel = new MUI.Window({'id':'mainpanel'});
 	myPanel.toggle();
+
+
+
+
+MUI.titlePanel($('central'),"<span style=\"color:#004080;\">Insside Framework Styles</span> / <span style=\"color:#FF0000;\">Clases</span>");
+
+
